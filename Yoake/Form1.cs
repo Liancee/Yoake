@@ -111,7 +111,7 @@ namespace Yoake
 
         private void PButton1_Click(object sender, EventArgs e)
         {
-            if (((Button)sender).Image == CurrKVPair.Value)
+            if (((Button)sender).BackgroundImage == CurrKVPair.Value)
             {
                 Controls.RemoveAt(3);
                 ProgramStart();
@@ -120,7 +120,7 @@ namespace Yoake
 
         private void PButton2_Click(object sender, EventArgs e)
         {
-            if (((Button)sender).Image == CurrKVPair.Value)
+            if (((Button)sender).BackgroundImage == CurrKVPair.Value)
             {
                 Controls.RemoveAt(3);
                 ProgramStart();
@@ -129,7 +129,7 @@ namespace Yoake
 
         private void PButton3_Click(object sender, EventArgs e)
         {
-            if (((Button)sender).Image == CurrKVPair.Value)
+            if (((Button)sender).BackgroundImage == CurrKVPair.Value)
             {
                 Controls.RemoveAt(3);
                 ProgramStart();
@@ -138,7 +138,7 @@ namespace Yoake
 
         private void PButton4_Click(object sender, EventArgs e)
         {
-            if (((Button)sender).Image == CurrKVPair.Value)
+            if (((Button)sender).BackgroundImage == CurrKVPair.Value)
             {
                 Controls.RemoveAt(3);
                 ProgramStart();
