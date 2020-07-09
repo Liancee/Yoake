@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoake", "Yoake\Yoake.csproj", "{BBFF4B37-17E6-46C3-94DF-44DA28B419CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBFF4B37-17E6-46C3-94DF-44DA28B419CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFF4B37-17E6-46C3-94DF-44DA28B419CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFF4B37-17E6-46C3-94DF-44DA28B419CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFF4B37-17E6-46C3-94DF-44DA28B419CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9129C15-E908-4B52-AD7B-20072910795A}
+	EndGlobalSection
+EndGlobal
