@@ -121,6 +121,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="black-heart_1f5a4.ico" />
+    <Content Include="Resources\Hiragana_A.png" />
+    <Content Include="Resources\Hiragana_E.png" />
+    <Content Include="Resources\Hiragana_I.png" />
+    <None Include="Resources\Hiragana_KA.png" />
+    <None Include="Resources\Hiragana_KE.png" />
+    <None Include="Resources\Hiragana_KI.png" />
+    <None Include="Resources\Hiragana_KO.png" />
+    <None Include="Resources\Hiragana_KU.png" />
+    <Content Include="Resources\Hiragana_O.png" />
+    <Content Include="Resources\Hiragana_U.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

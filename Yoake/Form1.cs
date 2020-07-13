@@ -28,6 +28,14 @@ namespace Yoake
             this.MaximizeBox = false;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             button1.GotFocus += Button1_GotFocus;
+            textBox1.KeyDown += TextBox1_KeyDown;
+        }
+
+        private void TextBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+                CheckAndContinue();
+
         }
 
         private void Button1_GotFocus(object sender, EventArgs e)
@@ -67,11 +75,11 @@ namespace Yoake
 
                 var i = 0;
                 var imageList = new List<Bitmap>() { CurrKVPair.Value };
-                //do
-                //{
+                do
+                {
                     imageList.AddRange(Dic.Values.ToList().OrderBy(x => Rnd.Next()).Take(3).ToList());
-                //}
-                //while (imageList.Distinct().Count() < 4);
+                }
+                while (imageList.Distinct().Count() < 4);
 
                 var userControl = new UserControl1();
                 userControl.Dock = DockStyle.Fill;
@@ -147,9 +155,13 @@ namespace Yoake
 
         private void Button_Click(object sender, EventArgs e)
         {
-            if (Controls[0].Text == CurrKVPair.Key)
+            CheckAndContinue();
+        }
+        private void CheckAndContinue()
+        {
+            if (textBox1.Text == CurrKVPair.Key)
             {
-                Controls[0].Text = string.Empty;
+                textBox1.Text = string.Empty;
                 Controls.RemoveAt(3);
                 ProgramStart();
             }
@@ -159,21 +171,17 @@ namespace Yoake
         {
             Dic = new Dictionary<string, Bitmap>()
                 {
-                    {"chipmunk", Properties.Resources._220px_Dramatic_Chipmunk },
-                    {"blackheart", Properties.Resources.black_heart_1f5a4 },
-                    {"redheart", Properties.Resources.heavy_black_heart_2764 },
+                    {"a", Properties.Resources.Hiragana_A },
+                    {"i", Properties.Resources.Hiragana_I },
+                    {"u", Properties.Resources.Hiragana_U },
+                    {"e", Properties.Resources.Hiragana_E },
+                    {"o", Properties.Resources.Hiragana_O },
 
-                    //{"a", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"i", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"u", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"e", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"o", Properties.Resources._220px_Dramatic_Chipmunk },
-
-                    //{"ka", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"ki", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"ku", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"ke", Properties.Resources._220px_Dramatic_Chipmunk },
-                    //{"ko", Properties.Resources._220px_Dramatic_Chipmunk },
+                    {"ka", Properties.Resources.Hiragana_KA },
+                    {"ki", Properties.Resources.Hiragana_KI },
+                    {"ku", Properties.Resources.Hiragana_KU },
+                    {"ke", Properties.Resources.Hiragana_KE },
+                    {"ko", Properties.Resources.Hiragana_KO },
 
                     //{"sa", Properties.Resources._220px_Dramatic_Chipmunk },
                     //{"shi", Properties.Resources._220px_Dramatic_Chipmunk },

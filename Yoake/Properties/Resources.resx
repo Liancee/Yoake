@@ -124,10 +124,40 @@
   <data name="sort" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sort.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="black-heart_1f5a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black-heart_1f5a4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hiragana_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_O.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="heavy-black-heart_2764" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\heavy-black-heart_2764.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_I.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_U.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black-heart_1f5a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-heart_1f5a4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_KA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_KA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_KE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_KE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_KI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_KI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_KO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_KO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana_KU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana_KU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
